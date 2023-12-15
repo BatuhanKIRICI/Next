@@ -9,7 +9,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "indie-flower": ["Indie Flower", "cursive"],
+        "gloria-hallelujah": ["Gloria Hallelujah", "cursive"],
+      },
+    },
   },
   plugins: [],
 };
