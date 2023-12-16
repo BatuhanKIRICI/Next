@@ -1,5 +1,6 @@
 import "../../styles/globals.css";
 import HeaderTop from "../HeaderTop/HeaderTop";
+import MainGeneralInfo from "../MainGeneralInfo/MainGeneralInfo";
 import MainImageTop from "../MainImageTop/MainImageTop";
 import Navbar from "../Navbar/Navbar";
 
@@ -13,6 +14,7 @@ const Layout: React.FC<LayoutProps> = () => {
       <HeaderTop />
       <Navbar />
       <MainImageTop />
+      <MainGeneralInfo />
     </div>
   );
 };

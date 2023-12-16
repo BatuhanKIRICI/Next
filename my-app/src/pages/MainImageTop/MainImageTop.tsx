@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import AnimateUpDown from "../../styles/AnimatedImageUpDown.module.css";
 import AnimateLeftRight from "../../styles/AnimatedImageLeftRight.module.css";
-import "@fontsource/indie-flower";
-import "@fontsource/gloria-hallelujah";
+
+import "@fontsource/permanent-marker";
 
 function MainImageTop() {
   return (
@@ -28,7 +28,7 @@ function MainImageTop() {
       </div>
       <h1
         className="flex relative justify-items-center text-white 
-            text-8xl w-[500px] ml-80 font-gloria-hallelujah"
+            text-8xl w-[500px] ml-80 font-permanent-marker"
       >
         ADANA SU BAYİLERİ
       </h1>
