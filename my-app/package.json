@@ -11,6 +11,9 @@
   "dependencies": {
     "@fontsource/gloria-hallelujah": "^5.0.18",
     "@fontsource/indie-flower": "^5.0.18",
+    "@fontsource/lilita-one": "^5.0.18",
+    "@fontsource/orbitron": "^5.0.18",
+    "@fontsource/permanent-marker": "^5.0.8",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",

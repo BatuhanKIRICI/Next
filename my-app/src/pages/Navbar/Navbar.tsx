@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav
       className="flex flex-row justify-center items-center my-5 -ml-6
-       bg-white sticky top-0 gap-x-7 z-10"
+       bg-white sticky top-0 gap-x-7 z-10 h-16"
     >
       <Link href="/">
         <div

@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         "indie-flower": ["Indie Flower", "cursive"],
         "gloria-hallelujah": ["Gloria Hallelujah", "cursive"],
+        "permanent-marker": ["Permanent Marker", "cursive"],
+        "lilita-one": ["Lilita One", "cursive"],
+        orbitron: ["Orbitron", "sans-serif"],
       },
     },
   },
