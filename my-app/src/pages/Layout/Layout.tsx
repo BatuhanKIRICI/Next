@@ -1,5 +1,6 @@
 import "../../styles/globals.css";
 import HeaderTop from "../HeaderTop/HeaderTop";
+import MainContact from "../MainContact/MainContact";
 import MainGeneralInfo from "../MainGeneralInfo/MainGeneralInfo";
 import MainImageTop from "../MainImageTop/MainImageTop";
 import MainServices from "../MainServices/MainServices";
@@ -11,12 +12,13 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = () => {
   return (
-    <div>
+    <div className="flex flex-col relative">
       <HeaderTop />
       <Navbar />
       <MainImageTop />
       <MainGeneralInfo />
       <MainServices />
+      <MainContact />
     </div>
   );
 };
