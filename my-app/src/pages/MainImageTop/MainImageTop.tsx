@@ -3,6 +3,8 @@ import Image from "next/image";
 import AnimateUpDown from "../../styles/AnimatedImageUpDown.module.css";
 import AnimateLeftRight from "../../styles/AnimatedImageLeftRight.module.css";
 import "@fontsource/permanent-marker";
+import "@fontsource/lilita-one";
+import "@fontsource/indie-flower";
 
 function MainImageTop() {
   return (
@@ -28,9 +30,9 @@ function MainImageTop() {
       </div>
       <h1
         className="flex relative justify-items-center text-white 
-            text-8xl w-[500px] ml-80 font-permanent-marker"
+            text-8xl w-[500px] ml-80 font-indie-flower font-black"
       >
-        ADANA SU BAYİLERİ
+        Adana Su Bayileri
       </h1>
       <div className="relative w-40 h-32 top-28 brightness-50 ">
         <Image

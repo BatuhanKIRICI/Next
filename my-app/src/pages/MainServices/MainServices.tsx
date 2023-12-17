@@ -3,25 +3,15 @@ import Image from "next/image";
 import "@fontsource/gloria-hallelujah";
 import "@fontsource/orbitron";
 import "@fontsource/lilita-one";
-import { useState } from "react";
 
 function MainServices() {
-  const [imageChange, setImageChange] = useState(false);
-
-  const handleImageChange = () => {
-    setImageChange(true);
-  };
-
-  const handleTitleChangeBlack = () => {
-    return `text-[20px] font-bold mt-10 ml-10 font-orbitron`;
-  };
   return (
     <div
       className="flex flex-col relative top-[300px] bg-gray-100 
-    items-center pb-10 h-[900px]"
+    items-center pb-[250px] "
     >
       <div
-        className="relative flex-start left-0 w-full h-[50px] top-[0px] 
+        className="absolute flex-start left-0 w-full h-[50px]  
       right-[175px] bg-gray-50"
       >
         <Image
@@ -43,10 +33,7 @@ function MainServices() {
         className="flex flex-row justify-center items-stretch gap-8
        bg-gray-100 "
       >
-        <div
-          onMouseOver={handleImageChange}
-          className="flex flex-col justify-start bg-white"
-        >
+        <div className="flex flex-col justify-start bg-white">
           <h2
             className="text-[20px] font-bold mt-10 ml-10 font-orbitron 
           hover:text-green-600"
@@ -121,7 +108,6 @@ function MainServices() {
           </h2>
           <p className="text-sm mt-3 ml-10">Bardak Su...</p>
           <div
-            onMouseOver={handleImageChange}
             className="relative flex-start left-0 w-[400px] h-[375px] top-[20px] 
       right-[175px] bg-gray-50 cursor-pointer"
           >
