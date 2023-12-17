@@ -3,6 +3,7 @@ import HeaderTop from "../HeaderTop/HeaderTop";
 import MainContact from "../MainContact/MainContact";
 import MainGeneralInfo from "../MainGeneralInfo/MainGeneralInfo";
 import MainImageTop from "../MainImageTop/MainImageTop";
+import MainNews from "../MainNews/MainNews";
 import MainServices from "../MainServices/MainServices";
 import Navbar from "../Navbar/Navbar";
 
@@ -19,6 +20,7 @@ const Layout: React.FC<LayoutProps> = () => {
       <MainGeneralInfo />
       <MainServices />
       <MainContact />
+      <MainNews />
     </div>
   );
 };

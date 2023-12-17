@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function MainContact() {
   return (
-    <div className="pt-16">
+    <div className="pt-8 mb-[-275px]">
       <div className="flex relative flex-col">
         <div
           className="flex relative flex-start justify-center h-[400px] w-full 

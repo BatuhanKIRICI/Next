@@ -3,16 +3,15 @@ import Image from "next/image";
 import "@fontsource/gloria-hallelujah";
 import "@fontsource/orbitron";
 import "@fontsource/lilita-one";
-import { useState } from "react";
 
 function MainServices() {
   return (
     <div
       className="flex flex-col relative top-[300px] bg-gray-100 
-    items-center pb-[100px] h-[900px]"
+    items-center pb-[250px] "
     >
       <div
-        className="relative flex-start left-0 w-full h-[50px] top-[0px] 
+        className="absolute flex-start left-0 w-full h-[50px]  
       right-[175px] bg-gray-50"
       >
         <Image
