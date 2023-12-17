@@ -4,10 +4,10 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-70px);
+    transform: translateY(-80px);
   }
 }
 
 .upDownAnimation {
-  animation: upDownAnimation 6s ease-in-out infinite;
+  animation: upDownAnimation 7s ease-in-out infinite;
 }

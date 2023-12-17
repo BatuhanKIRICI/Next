@@ -2,6 +2,7 @@ import "../../styles/globals.css";
 import HeaderTop from "../HeaderTop/HeaderTop";
 import MainGeneralInfo from "../MainGeneralInfo/MainGeneralInfo";
 import MainImageTop from "../MainImageTop/MainImageTop";
+import MainServices from "../MainServices/MainServices";
 import Navbar from "../Navbar/Navbar";
 
 interface LayoutProps {
@@ -15,6 +16,7 @@ const Layout: React.FC<LayoutProps> = () => {
       <Navbar />
       <MainImageTop />
       <MainGeneralInfo />
+      <MainServices />
     </div>
   );
 };

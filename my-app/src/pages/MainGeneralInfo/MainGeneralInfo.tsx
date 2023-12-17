@@ -21,6 +21,7 @@ function MainGeneralInfo() {
           src="/assets/mersin-tup-su-sirma-su-728978.jpeg"
           alt="Mersin su"
           fill
+          sizes="1"
         />
         <div
           className="absolute w-[600px] h-[400px] right-[50px] rounded-[50%]

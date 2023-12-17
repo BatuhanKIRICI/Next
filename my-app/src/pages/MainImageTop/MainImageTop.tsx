@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import AnimateUpDown from "../../styles/AnimatedImageUpDown.module.css";
 import AnimateLeftRight from "../../styles/AnimatedImageLeftRight.module.css";
-
 import "@fontsource/permanent-marker";
 
 function MainImageTop() {
@@ -24,6 +23,7 @@ function MainImageTop() {
           src="/assets/animation2.png"
           alt="animation up down"
           fill
+          sizes="1"
         />
       </div>
       <h1
@@ -38,6 +38,7 @@ function MainImageTop() {
           src="/assets/animation3.png"
           alt="animation up down"
           fill
+          sizes="1"
         />
       </div>
 
@@ -46,7 +47,7 @@ function MainImageTop() {
           className="flex absolute h-40 w-40 left-[1280px] brightness-75 
         top-[540px]"
         >
-          <Image src="/assets/animation1.png" alt="grape" fill />
+          <Image src="/assets/animation1.png" alt="grape" fill sizes="1" />
         </div>
       </div>
 
@@ -54,7 +55,7 @@ function MainImageTop() {
         className="flex relative h-[40px] w-full flex-start top-[90px] 
       "
       >
-        <Image src="/assets/bottom-bg-shape.png" alt="Bottom" fill />
+        <Image src="/assets/bottom-bg-shape.png" alt="Bottom" fill sizes="1" />
       </div>
     </div>
   );
