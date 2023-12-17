@@ -103,7 +103,7 @@ const Navbar = () => {
                 setIsOpenFirst(false);
               }}
               className="w-full hover:text-white cursor-pointer 
-            rounded-r-lg"
+            rounded-r-lg z-50"
             >
               <p>Hakkımızda</p>
             </div>
