@@ -27,8 +27,8 @@ const ScrollUpButton = () => {
       {display && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 right-4 bg-blue-700 hover:bg-blue-700
-         text-white font-bold py-2 px-4 rounded-[100px]"
+          className="fixed bottom-4 right-4 bg-red-700 hover:bg-green-700
+         text-white font-bold py-2 px-4 rounded-xl"
         >
           <svg
             className="fill-white"
