@@ -1,5 +1,5 @@
 import "../../styles/globals.css";
-import Footer from "../ScrollUpButton/ScrollUpButton";
+import Footer from "../Footer/Footer";
 import HeaderTop from "../HeaderTop/HeaderTop";
 import MainContact from "../MainContact/MainContact";
 import MainGeneralInfo from "../MainGeneralInfo/MainGeneralInfo";
@@ -23,6 +23,7 @@ const Layout: React.FC<LayoutProps> = () => {
       <MainServices />
       <MainContact />
       <MainNews />
+      <Footer />
       <ScrollUpButton />
     </div>
   );

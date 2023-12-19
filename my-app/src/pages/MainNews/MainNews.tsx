@@ -28,7 +28,7 @@ function MainNews() {
           >
             <div className="flex flex-col justify-start bg-white">
               <div
-                className="relative flex-start left-0 w-[333px] h-[333px] top-[20px] 
+                className="relative flex-start left-0 w-[333px] h-[275px] top-[20px] 
       right-[175px] bg-gray-50 cursor-pointer "
               >
                 <Image
@@ -48,7 +48,7 @@ function MainNews() {
               </h2>
               <p className="text-sm mt-3 ml-10 pb-8">Çukurova Su Bayisi...</p>
               <hr />
-              <i className="pt-8 ml-10 flex flex-row items-center">
+              <i className="pt-8 ml-10 mb-8 flex flex-row items-center">
                 <svg
                   className="mr-2"
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,10 +66,11 @@ function MainNews() {
                 </svg>
                 <p>13.11.2023 13:14</p>
               </i>
+              <hr />
             </div>
             <div className="flex flex-col justify-start bg-white">
               <div
-                className="relative flex-start left-0 w-[333px] h-[333px] top-[20px] 
+                className="relative flex-start left-0 w-[333px] h-[275px] top-[20px] 
       right-[175px] bg-white cursor-pointer"
               >
                 <Image
@@ -89,7 +90,7 @@ function MainNews() {
               </h2>
               <p className="text-sm mt-3 ml-10 pb-8">Kozan Su Bayisi...</p>
               <hr />
-              <i className="pt-8 ml-10 flex flex-row items-center">
+              <i className="pt-8 ml-10 mb-8 flex flex-row items-center">
                 <svg
                   className="mr-2"
                   xmlns="http://www.w3.org/2000/svg"
@@ -107,10 +108,11 @@ function MainNews() {
                 </svg>
                 <p>13.11.2023 13:14</p>
               </i>
+              <hr />
             </div>
             <div className="flex flex-col justify-start bg-white">
               <div
-                className="relative flex-start left-0 w-[333px] h-[333px] top-[20px] 
+                className="relative flex-start left-0 w-[333px] h-[275px] top-[20px] 
       right-[175px] bg-white cursor-pointer"
               >
                 <Image
@@ -130,7 +132,7 @@ function MainNews() {
               </h2>
               <p className="text-sm mt-3 ml-10 pb-8">Sarıçam Su Bayisi...</p>
               <hr />
-              <i className="pt-8 ml-10 flex flex-row items-center">
+              <i className="pt-8 ml-10 mb-8 flex flex-row items-center">
                 <svg
                   className="mr-2"
                   xmlns="http://www.w3.org/2000/svg"
@@ -148,6 +150,7 @@ function MainNews() {
                 </svg>
                 <p>13.11.2023 13:14</p>
               </i>
+              <hr />
             </div>
           </div>
         </div>
