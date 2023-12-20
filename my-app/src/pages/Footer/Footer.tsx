@@ -12,6 +12,7 @@ const Footer: React.FC = () => {
   const [isHovered2, setIsHovered2] = useState(false);
   const [isHovered3, setIsHovered3] = useState(false);
   const [isHovered4, setIsHovered4] = useState(false);
+  const [activeItem, setActiveItem] = useState("");
 
   return (
     <div className="flex flex-col relative justify-center bg-gray-800 w-auto h-[750px]">
@@ -31,6 +32,19 @@ const Footer: React.FC = () => {
               ihtiyacını tamamen karşılamakla birlikte mutlu müşteri potansiyeli
               kazanmaktadır.
             </p>
+          </div>
+        </div>
+        <div className="group">
+          <p className="text-blue-500 group-hover:text-blue-700">
+            Üzerine gelince rengi değişecek öğe
+          </p>
+
+          <div className="text-gray-500 group-hover:text-gray-700">
+            Alt öğe 1
+          </div>
+
+          <div className="text-gray-500 group-hover:text-gray-700">
+            Alt öğe 2
           </div>
         </div>
         <div className="flex flex-row relative left-[540px] top-[60px] space-x-40">
@@ -75,117 +89,44 @@ const Footer: React.FC = () => {
                   Anasayfa
                 </li>
               }
-              <div className="border-b border-dashed border-gray-500 mb-6 w-60 brightness-75" />
-              {
-                <li
-                  id="1"
-                  onMouseOver={() => {
-                    setIsHovered1(true);
-                  }}
-                  onMouseOut={() => {
-                    setIsHovered1(false);
-                  }}
-                  className={
-                    isHovered1
-                      ? "flex flex-row relative items-center mb-6 text-yellow-600 duration-300"
-                      : "flex flex-row relative items-center mb-6"
-                  }
-                >
-                  <svg
-                    className={
-                      isHovered1
-                        ? "fill-yellow-600 mr-3 duration-300"
-                        : "fill-white mr-3"
-                    }
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="16"
-                    width="10"
-                    viewBox="0 0 320 512"
-                  >
-                    <path
-                      d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 
-                  192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 
-                  73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 
-                  192z"
-                    />
-                  </svg>
-                  Hakkımızda
-                </li>
-              }
-              <div className="border-b border-dashed border-gray-500 mb-6 w-60 brightness-75" />
-              {
-                <li
-                  id="2"
-                  onMouseOver={() => {
-                    setIsHovered2(true);
-                  }}
-                  onMouseOut={() => {
-                    setIsHovered2(false);
-                  }}
-                  className={
-                    isHovered2
-                      ? "flex flex-row relative items-center mb-6 text-yellow-600 duration-300"
-                      : "flex flex-row relative items-center mb-6"
-                  }
-                >
-                  <svg
-                    className={
-                      isHovered2
-                        ? "fill-yellow-600 mr-3 duration-300"
-                        : "fill-white mr-3"
-                    }
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="16"
-                    width="10"
-                    viewBox="0 0 320 512"
-                  >
-                    <path
-                      d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 
-                  192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 
-                  73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 
-                  192z"
-                    />
-                  </svg>
-                  Hizmetler
-                </li>
-              }
-              <div className="border-b border-dashed border-gray-500 mb-6 w-60 brightness-75" />
-              {
-                <li
-                  id="3"
-                  onMouseOver={() => {
-                    setIsHovered3(true);
-                  }}
-                  onMouseOut={() => {
-                    setIsHovered3(false);
-                  }}
+
+              <FooterFastMenuItem title="Hakkimizda" />
+
+              <li
+                id="3"
+                onMouseOver={() => {
+                  setIsHovered3(true);
+                }}
+                onMouseOut={() => {
+                  setIsHovered3(false);
+                }}
+                className={
+                  isHovered3
+                    ? "flex flex-row relative items-center mb-6 text-yellow-600 duration-300"
+                    : "flex flex-row relative items-center mb-6"
+                }
+              >
+                <svg
                   className={
                     isHovered3
-                      ? "flex flex-row relative items-center mb-6 text-yellow-600 duration-300"
-                      : "flex flex-row relative items-center mb-6"
+                      ? "fill-yellow-600 mr-3 duration-300"
+                      : "fill-white mr-3"
                   }
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="16"
+                  width="10"
+                  viewBox="0 0 320 512"
                 >
-                  <svg
-                    className={
-                      isHovered3
-                        ? "fill-yellow-600 mr-3 duration-300"
-                        : "fill-white mr-3"
-                    }
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="16"
-                    width="10"
-                    viewBox="0 0 320 512"
-                  >
-                    <path
-                      d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 
+                  <path
+                    d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 
                   192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 
                   73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 
                   192z"
-                    />
-                  </svg>
-                  Blog
-                </li>
-              }
+                  />
+                </svg>
+                Blog
+              </li>
+
               <div className="border-b border-dashed border-gray-500 mb-6 w-60 brightness-75" />
               {
                 <li
@@ -340,6 +281,48 @@ const Footer: React.FC = () => {
           </div>
         </label>
       </div>
+    </div>
+  );
+};
+
+const Divider = () => (
+  <div className="border-b border-dashed border-gray-500 mb-6 w-60 brightness-75" />
+);
+
+interface IFooterFastMenuItem {
+  title: string;
+  isDividerVisible?: boolean;
+}
+const FooterFastMenuItem = ({
+  title,
+  isDividerVisible = true,
+}: IFooterFastMenuItem) => {
+  return (
+    <div className="group">
+      <li
+        id="1"
+        className={
+          "flex flex-row relative  items-center mb-6 text-white  group-hover:text-yellow-600  duration-300 "
+        }
+      >
+        <svg
+          className={"fill-white group-hover:fill-yellow-600 mr-3 duration-300"}
+          xmlns="http://www.w3.org/2000/svg"
+          height="16"
+          width="10"
+          viewBox="0 0 320 512"
+        >
+          <path
+            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 
+    192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 
+    73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 
+    192z"
+          />
+        </svg>
+        {title}
+      </li>
+
+      {isDividerVisible && <Divider />}
     </div>
   );
 };
