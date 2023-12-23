@@ -25,12 +25,12 @@ const PhoneButtons = () => {
         <p className=" text-[16px] ml-4">0545 484 11 18</p>
       </button>
       <button
-        className="fixed bottom-4 left-4 bg-green-700  hover:brightness-[80%]
+        className="fixed bottom-4 left-4 bg-green-600  hover:brightness-[60%]
        text-white font-bold py-2 px-4 w-48 h-12 rounded-[80px] flex flex-row 
-       items-center "
+       items-center animate-pulse"
       >
         <svg
-          className="fill-white text-white w-16 h-8 ml-[-20px] animate-ping
+          className="fill-white text-white w-16 h-8 ml-[-20px] 
            duration-300"
           xmlns="http://www.w3.org/2000/svg "
           height="16"

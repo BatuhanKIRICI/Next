@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import Image from "next/image";
 import "@fontsource/gloria-hallelujah";
 import "@fontsource/orbitron";
@@ -9,8 +9,6 @@ import {
   mainServiceData,
 } from "./data";
 import { ServiceCard } from "./ServiceCard";
-
-
 
 function MainServices() {
   return (
@@ -41,7 +39,6 @@ function MainServices() {
         className="flex flex-row justify-center items-stretch gap-8
        bg-gray-100 "
       >
-        <MYComp/>
         {mainServiceData.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}

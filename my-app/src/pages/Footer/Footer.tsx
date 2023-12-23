@@ -3,8 +3,8 @@ import Image from "next/image";
 import "@fontsource/lilita-one";
 import "@fontsource/indie-flower";
 import { useState } from "react";
-import svgData from "../svgData";
-import iconData from "../iconData";
+import svgData from "../HeaderTop/infoData";
+import iconData from "../HeaderTop/iconData";
 
 const Footer: React.FC = () => {
   const [isHovered0, setIsHovered0] = useState(false);
