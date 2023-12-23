@@ -7,6 +7,7 @@ import MainImageTop from "../MainImageTop/MainImageTop";
 import MainNews from "../MainNews/MainNews";
 import MainServices from "../MainServices/MainServices";
 import Navbar from "../Navbar/Navbar";
+import PhoneButtons from "../PhoneButtons/PhoneButtons";
 import ScrollUpButton from "../ScrollUpButton/ScrollUpButton";
 
 interface LayoutProps {
@@ -25,6 +26,7 @@ const Layout: React.FC<LayoutProps> = () => {
       <MainNews />
       <Footer />
       <ScrollUpButton />
+      <PhoneButtons />
     </div>
   );
 };
