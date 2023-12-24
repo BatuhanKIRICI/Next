@@ -6,7 +6,7 @@ const HeaderTop = () => {
     <div
       className="bg-yellow-500 h-16 text-black text-xl 2xl:h-16 2xl:text-lg
       xl:h-16 xl:text-lg lg:h-16 lg:text-base md:h-16 md:text-base sm:h-16 
-     flex md:flex-row  md:justify-around items-center text-center "
+     flex md:flex-row  md:justify-around items-center text-center"
     >
       <div className="ml-10 md:ml-0 flex flex-row relative justify-center text-center ">
         {infoData.map((item, index) => {

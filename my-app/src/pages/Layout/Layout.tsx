@@ -16,15 +16,17 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = () => {
   return (
-    <div className="flex flex-col relative">
+    <div>
       <HeaderTop />
       <Navbar />
-      <MainImageTop />
-      <MainGeneralInfo />
-      <MainServices />
-      <MainContact />
-      <MainNews />
-      <Footer />
+      <div className="overflow-x-hidden">
+        <MainImageTop />
+        <MainGeneralInfo />
+        <MainServices />
+        <MainContact />
+        <MainNews />
+        <Footer />
+      </div>
       <ScrollUpButton />
       <PhoneButtons />
     </div>
