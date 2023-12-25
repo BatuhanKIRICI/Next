@@ -1,10 +1,23 @@
 import React from "react";
+import { INavbarItemWithMenu } from "./Navbar";
 
 export interface INavbarProps {
   id: number;
   class: string;
   content: string;
 }
+
+export const navbarMenuInfo:INavbarItemWithMenu[]=[
+  {title:"Kurumsal",options:[
+    {title:"Hakkimizda",route:"/hakkimizda"}
+  ]},
+  {title:"Bayiler",options:[
+    {title:"Cukurova su bayileri",route:"/cukurova"},
+    {title:"Yüregir su bayileri",route:"/yüregir"},
+    {title:"Kozan su bayileri",route:"/kozan"}
+  ]},
+
+]
 
 export const navbarInfo = [
   {
