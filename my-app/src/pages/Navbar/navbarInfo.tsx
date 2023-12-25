@@ -9,12 +9,15 @@ export interface INavbarProps {
 export const navbarInfo = [
   {
     id: 0,
-    class: "hidden lg:flex text-black bg-white focus:ring-4 focus:ring-blue-300
+    class: (
+      <p>
+        hidden lg:flex text-black bg-white focus:ring-4 focus:ring-blue-300
         font-medium rounded-lg text-md px-5 py-2.5 text-center items-center
         dark:bg-white dark:hover:text-white dark:hover:bg-blue-700
         dark:focus:ring-blue-800 hover:-translate-y-1 hover:bg-blue-500
-        duration-300"    
-    ,
+        duration-300
+      </p>
+    ),
     content: <p>ANASAYFA</p>,
   },
   {
